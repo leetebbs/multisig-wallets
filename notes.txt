@@ -1,0 +1,4 @@
+create a dapp that allows anyone to create a multisig wallet on any evm chain
+the creator can add any number of wallet owners and any number of confirmations needed for the wallet to send the transactions
+the owners can create transactions on the multisig to send any amount to any address once the number of required confirms has been reached
+
