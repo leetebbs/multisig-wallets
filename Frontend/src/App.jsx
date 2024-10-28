@@ -12,16 +12,16 @@ import { Routes, Route } from "react-router-dom";
 function App() {
 
 // 1. Get projectId
-const projectId = 'acf19e04601cd0177cf201aa3bd10ec9';
+const projectId = import.meta.env.VITE_PROJECT_ID;
 
 // 2. Set the networks
 const networks = [arbitrumSepolia, sepolia, unichainSepolia, polygonAmoy];
 
 // 3. Create a metadata object - optional
 const metadata = {
-  name: 'My Website',
-  description: 'My Website description',
-  url: 'https://mywebsite.com', // origin must match your domain & subdomain
+  name: 'MultiVault',
+  description: 'Multisig Wallets for Arbitrum, Polygon, and Unichain',
+  url: 'https://multisig-wallets.vercel.app/', // origin must match your domain & subdomain
   icons: ['https://avatars.mywebsite.com/']
 }
 
